@@ -1,0 +1,68 @@
+body {
+	background-color: #398AB9;
+	color: #F76E11;
+	font-family: Times, serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Custom design with class (99% oy your design) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: green;
+	padding: 40px;
+	box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+@media (max-width:  750px) {
+	.container {
+		width:  600px;
+	}
+}
+
+@media (max-width:  500px) {
+	.container {
+		width:  400px;
+	}
+}
+
+h1 {
+	color:  #B8405E;
+	font-size: 33px;		
+	font-family: helvetica, serif;
+	font-weight: bolder;
+}	
+
+h2 {
+	color: #B8405E;
+	font-size: 28px;		
+	font-family: Courier, serif;
+}
+
+h3 {
+	color: #B8405E;
+	font-size: 23px;		
+	font-family: arial, serif;
+}
+
+a {
+	text-decoration: none;
+	color: #F76E11;	
+}
+
+a:hover {
+	color:  yellow;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
